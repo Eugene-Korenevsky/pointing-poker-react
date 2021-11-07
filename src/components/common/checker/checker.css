@@ -1,0 +1,31 @@
+.cheker {
+  position: relative;
+  width: 55px;
+  height: 30px;
+  background: #c4c4c4;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  transition: all 0.35s;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.cheker_active {
+  background: #60dabf;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.cheker::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  right: 3px;
+  transform: translateY(-50%);
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  transition: all 0.35s;
+}
+.cheker_active:after {
+  right: 29px;
+}

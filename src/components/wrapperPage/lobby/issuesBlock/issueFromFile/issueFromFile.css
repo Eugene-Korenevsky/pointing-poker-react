@@ -1,0 +1,59 @@
+.issue-from-file__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.issue-from-file__button {
+  position: relative;
+  color: #000000;
+  width: 300px;
+  height: 76px;
+  display: flex;
+  font-size: 20px;
+  background: #fefeff;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  align-items: center;
+  font-family: 'Roboto';
+  padding: 0 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.issue-from-file__button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  background: url('../../../../../assets/create.svg') center center/cover no-repeat;
+}
+.issue-from-file__button:hover {
+  box-shadow: 0px 2px 4px -1px rgb(0 0 0 / 20%), 0px 4px 5px 0px rgb(0 0 0 / 14%), 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  background-color: #d5d5d5;
+}
+.issue-from-file__label {
+  background: rgba(20, 207, 182, 0.472);
+  width: 170px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Ruda';
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.issue-from-file__label:hover {
+  background: rgba(105, 255, 235, 0.815);
+  box-shadow: 0 0 5px 1px #55545452;
+}
+.issue-from-file__label:active {
+  background: rgba(20, 207, 182, 0.472);
+  box-shadow: none;
+}
+.issue-from-file__input {
+  display: none;
+}

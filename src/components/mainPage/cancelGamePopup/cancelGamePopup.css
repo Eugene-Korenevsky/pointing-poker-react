@@ -1,0 +1,8 @@
+.dialog-title {
+  text-align: center;
+}
+.dialog-actions__btn-wrap_one {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,58 @@
+.timer {
+  width: 160px;
+  height: 64px;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+.timer__min,
+.timer__sec {
+  position: relative;
+  width: 60px;
+  height: 44px;
+  font-family: 'Ruda';
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.18);
+  border-radius: 6px;
+  color: #000000;
+  padding-top: 5.6px;
+}
+.timer__min:before,
+.timer__sec:before {
+  position: absolute;
+  top: -11.2px;
+  width: 40px;
+  height: 10.4px;
+  font-size: 9.6px;
+  line-height: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.timer__min:before {
+  content: 'minutes';
+  left: 50%;
+  transform: translateX(-50%);
+}
+.timer__sep {
+  font-family: 'Ruda';
+  font-weight: 700;
+  font-size: 19.2px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+.timer__sec:before {
+  content: 'seconds';
+  right: 50%;
+  transform: translateX(50%);
+}

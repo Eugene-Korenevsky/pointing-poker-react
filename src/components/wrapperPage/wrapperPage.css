@@ -1,0 +1,26 @@
+.chat-view-btn-container {
+  height: 0;
+  position: sticky;
+  display: flex;
+  align-items: flex-end;
+  bottom: 0;
+  justify-content: flex-end;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.chat-view-btn {
+  background-color: rgb(102,153,155) !important;
+}
+
+.chat-view-btn:hover {
+  background-color: rgb(76, 123, 124) !important;
+}
+
+.page-wrapper{
+  position: relative;
+}
+
+.chat-wrapper {
+  position: relative;
+}

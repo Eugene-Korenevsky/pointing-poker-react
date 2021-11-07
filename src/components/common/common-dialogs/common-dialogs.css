@@ -1,0 +1,15 @@
+.yes-no-dialog__yes-button {
+  background: #2b3a67;
+  border: 1px solid #496A81;
+  color: #ffffff;
+  width: 189px;
+  height: 47px;
+}
+
+.yes-no-dialog__no-button {
+  background: #fefeff;
+  border: 1px solid #496A81;
+  color: #2b3a67;
+  width: 189px;
+  height: 47px;
+}

@@ -1,0 +1,83 @@
+.setting-card-wrap {
+  margin-top: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 15px;
+}
+
+.setting__card-value-vote-wrapper {
+  position: relative;
+}
+
+.setting__card-value-vote-chosen-icon {
+  background: #60dabf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.setting__chosen-card-value-img {
+  width: 32px;
+  height: 43px;
+}
+
+.setting__card-value-vote-chosen {
+  width: 100px;
+  height: 161px;
+  position: absolute;
+  top: 0;
+  background: rgba(96, 218, 191, 0.46);
+  border-radius: 15px;
+  border: 1px solid #000;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.setting__card-value-vote {
+  width: 100px;
+  height: 161px;
+  border-radius: 15px;
+  border: 1px solid #000;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Ruda';
+  font-size: 30px;
+  font-weight: 700;
+  padding: 2px 3px;
+  overflow: hidden;
+  background: rgb(255, 255, 255);
+}
+
+.setting__card-value-vote:hover {
+  cursor: pointer;
+  background: rgba(96, 218, 191, 0.46);
+}
+
+.setting__card-value-type {
+  font-size: 22px;
+}
+.setting__card-value-type:first-child {
+  align-self: start;
+}
+.setting__card-value-type:last-child {
+  align-self: flex-end;
+  transform: rotate(180deg);
+}
+@media (max-width: 700px) {
+  .setting-card-wrap {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,90 @@
+.footer__second-line {
+    background: #2B3A67;
+    min-height: 50px;
+}
+
+.footer__first-line {
+    height: 20px;
+    background: #66999B;
+}
+
+.footer__rs-link {
+    width: min-content;
+    margin-left: 57px;
+    cursor: pointer;
+}
+
+.footer__rs-logo {
+    width: 50px;
+    height: 50px;
+}
+
+.footer__year {
+    margin-right: 57px;
+    color: #FFFFFF;
+    font-family: Ruda;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.footer__git-logo{
+    width: 20px;
+    height: 20px;  
+    margin-left: -1px;
+    margin-top: -2px; 
+}
+
+.logo-background {
+    background-color: #FFFFFF;
+    width: 18px;
+    height: 17px; 
+    border-radius: 50%;
+    margin-right: 2px;
+}
+
+.footer__git-member-link {
+    display: flex;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer__git-member-li {
+    list-style-type: none;
+}
+
+.footer__members {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__members-navigation {
+    min-width: 60%;
+}
+
+.footer-nav-wrapper {
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 950px) {
+
+    .footer__members {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: auto;
+        height: 100px;
+    }
+
+    .footer__members-navigation {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

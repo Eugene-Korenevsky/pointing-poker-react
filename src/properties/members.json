@@ -1,0 +1,24 @@
+[{
+    "name": "Taras",
+    "surname": "Klochko",
+    "gitLink": "https://github.com/TarasKlochko",
+    "tittle": "student: Taras Klochko"
+  },
+{
+    "name": "Alexey",
+    "surname": "Protasenya",
+    "gitLink": "https://github.com/DevAlexeyProtasenya",
+    "tittle": "student: Alexey Protasenya"
+},
+{
+    "name": "Eugene",
+    "surname": "Korenevsky",
+    "gitLink": "https://github.com/Eugene-Korenevsky",
+    "tittle": "student: Eugene Korenevsky"
+},
+{
+    "name": "Ilya",
+    "surname": "Eliseev",
+    "gitLink": "https://github.com/burntree",
+    "tittle": "mentor: Ilya Eliseev"
+}]

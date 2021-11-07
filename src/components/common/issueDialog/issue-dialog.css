@@ -1,0 +1,36 @@
+.issue-dialig-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #000000;
+}
+
+.issue-dialog-input-wrapper,
+.issue-dialog-select-wrapper {
+  width: 420px;
+  height: 47px;
+  margin: 30px;
+}
+
+.issue-dialog-input {
+  width: 420px;
+  height: 47px;
+  background: #ffffff;
+  border: 1px solid #2b3a67;
+  border-radius: 0px;
+  padding: 0;
+}
+.issue-dialog-input__error {
+  color: #ff0000;
+  font-family: Roboto;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+.issue-dialog-select-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

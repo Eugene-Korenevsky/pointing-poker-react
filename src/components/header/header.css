@@ -1,0 +1,45 @@
+.header {
+    position: relative;
+}
+
+.header-logo-wrapper {
+    top: -70px;
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+}
+
+.logo-wrapper {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 64px;
+    top: 25.36px;
+    background: #FFC482;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-45deg);
+}
+
+.header__first-line {
+    background: #2B3A67;
+    height: 50px;
+}
+
+.header__second-line {
+    height: 20px;
+    background: #66999B;
+}
+
+.logo__white-p {
+    position: absolute;
+    transform: rotate(45deg);
+    left: -3.22px;
+    top: 12.72px;
+}
+
+.logo__green-p {
+    position: absolute;
+    transform: rotate(45deg);
+    left: 26.78px;
+    top: 8.72px;
+}
